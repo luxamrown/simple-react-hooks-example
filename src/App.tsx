@@ -11,9 +11,14 @@ function App() {
             Home
           </button>
         </Link>
-        <Link to={'/useeffect'}>
+        {/* <Link to={'/useeffect'}>
           <button className='home-button'>
             UseEffect
+          </button>
+        </Link> */}
+        <Link to={'/usestate'}>
+          <button className='home-button'>
+            UseState
           </button>
         </Link>
       </div>
